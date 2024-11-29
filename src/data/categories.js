@@ -1,0 +1,98 @@
+const categories = [
+  {
+    id: "themes",
+    name: "Themes",
+    description: "Themes to improve your coding experience.",
+    icon: "🎨",
+    slug: "themes",
+    imageUrl: "",
+    totalExtensions: 10,
+  },
+  {
+    id: "web-dev",
+    name: "Web Development",
+    description: "Extensions for building, debugging, and optimizing websites.",
+    icon: "🌐",
+    slug: "web-development",
+    imageUrl: "",
+    totalExtensions: 26,
+  },
+  {
+    id: "productivity",
+    name: "Productivity",
+    description: "Tools to improve workflow, focus, and coding efficiency.",
+    icon: "⚡",
+    slug: "productivity",
+    imageUrl: "",
+    totalExtensions: 8,
+  },
+  {
+    id: "ai-ml",
+    name: "AI/ML",
+    description: "Extensions for AI, machine learning, and data science.",
+    icon: "🤖",
+    slug: "ai-ml",
+    imageUrl: "",
+    totalExtensions: 0,
+  },
+  {
+    id: "debugging",
+    name: "Debugging",
+    description: "Tools for finding and fixing issues in your code.",
+    icon: "🐞",
+    slug: "debugging",
+    imageUrl: "",
+    totalExtensions: 0,
+  },
+  {
+    id: "design",
+    name: "Design & UX",
+    description:
+      "Extensions for improving UI/UX and working with design systems.",
+    icon: "🎨",
+    slug: "design-ux",
+    imageUrl: "",
+    totalExtensions: 0,
+  },
+  {
+    id: "testing",
+    name: "Testing",
+    description:
+      "Tools for automated testing, code coverage, and quality assurance.",
+    icon: "✅",
+    slug: "testing",
+    imageUrl: "",
+    totalExtensions: 0,
+  },
+  {
+    id: "devops",
+    name: "DevOps",
+    description:
+      "Extensions for CI/CD, infrastructure as code, and monitoring.",
+    icon: "🚀",
+    slug: "devops",
+    imageUrl: "",
+    totalExtensions: 0,
+  },
+  {
+    id: "languages",
+    name: "Languages & Frameworks",
+    description:
+      "Extensions for language-specific support and framework tools.",
+    icon: "📚",
+    slug: "languages-frameworks",
+    imageUrl: "",
+    totalExtensions: 0,
+  },
+  {
+    id: "developer-tools",
+    name: "Developer Tools",
+    description: "Miscellaneous utilities to enhance your coding experience.",
+    icon: "🛠️",
+    slug: "developer-tools",
+    imageUrl: "",
+    totalExtensions: 0,
+  },
+];
+
+export default categories;

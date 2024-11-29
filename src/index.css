@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hidden {
+  scrollbar-width: none;
+}
+
+.scrollbar-hidden {
+  -ms-overflow-style: none;
+  overflow: auto;
+}
+
+pre.shiki {
+  background: transparent !important;
+}
+
+/* Scrollbar for Chrome, Edge, and Safari */
+html::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+html::-webkit-scrollbar-track {
+  background: #1e1e2f;
+  border-radius: 4px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #4b5563;
+  border-radius: 4px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #4b5563 #1e1e2f;
+}
+
+html {
+  --scrollbar-thumb: #4b5563;
+  --scrollbar-thumb-hover: #6b7280;
+  --scrollbar-track: #1e1e2f;
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+}
